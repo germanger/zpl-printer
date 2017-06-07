@@ -25,6 +25,12 @@ but it has two problems:
 - No preview
 - It doesn't let you associate ZPL files ("open with...")
 
+## Suggested usage
+
+1. Associate .ZPL files to open with this utility
+2. Create ZPL code from your own software and output to a file, ie. foo.zpl
+3. In your software, use something like `System.Diagnostics.Process.Start("foo.ZPL")`
+4. Windows will open the .ZPL with this utility
 
 ## Screenshots
 
